@@ -43,16 +43,16 @@ h2{
 #name{
     margin-bottom: 20px;
 }
-h1{
+h1, h1>i{
     font-size: 50px;
 }
+
 
 input{
     padding: 10px 15px;
     width: 200px;
     border: none;
     border-radius: 5px;
-
 }
 
 button{
