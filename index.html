@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile Viewer</title>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/5c5bba5330.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <h1>Github Profile Viewer</h1>
+    <input type="text" id="userInput" placeholder="Insert a Github Username...">
+    <button onclick="searchProfile()">Search Profile</button>
+
+    <br>
+
+    <div class="content">
+        
+            <img src="" alt="profil avatar" id="avatar" width="200px">
+
+            <h2 id="loginname"></h2>
+            <h2 id="name"></h3>
+        <div class="textcontent">
+            <i class="fa-solid fa-fingerprint"></i> <span id="id"></span> <br>
+            <i class="fa-solid fa-circle-info"></i> <span id="bio"></span><br>
+            <i class="fa-solid fa-user-group"></i> <span id="followers"></span><br>
+            <i class="fa-solid fa-user-plus"></i> <span id="following"></span><br>
+            <i class="fa-solid fa-book-bookmark"></i> <span id="repos"></span><br>
+            <i class="fa-solid fa-file-code"></i> <span id="gists"></span><br>
+            <i class="fa-solid fa-location-dot"></i> <span id="location"></span><br>
+            <i class="fa-solid fa-building"></i> <span id="company"></span><br>
+            <i class="fa-solid fa-envelope"></i> <span id="email"></span><br>
+            <i class="fa-brands fa-twitter"></i> <span id="twitter"></span><br>
+            <i class="fa-solid fa-square-plus"></i> <span id="created"></span><br>
+            <i class="fa-solid fa-pen-to-square"></i> <span id="updated"></span><br>
+            <i class="fa-solid fa-link"></i> <a href="" id="link"></a><br>
+            </div>
+    </div>
+</body>
+</html>
